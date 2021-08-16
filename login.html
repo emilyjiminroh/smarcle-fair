@@ -5,19 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    
   </head>
 
-  <body>
-    <div class="wrapper">
+  <body class="login-body">
+    <header class="menu-bar">
+      <nav></nav>
+    </header>
+
+    <main class="login-main">
       <header>
-        <nav></nav>
+        <h1>2021 SMARCLE Makers-day 박람회에 오신 것을 환영합니다!</h1>
       </header>
+      <section class="ask">
+        <span>당신의 이름은 무엇인가요?</span>
+        <form class="form-name">
+          <input type="text" class="input-name">
+        </form>
+        <span class="hidden name"></span>
+      </section>
+      <section class="ask">
+        <span>당신의 신분은 무엇인가요?</span>
+        <form class="form-position">
+          <input type="text" class="input-position">
+        </form>
+        <span class="hidden position"></span>
+      </section>
+    </main>
 
-      <main>
-        <section></section>
-      </main>
+    <footer class="login-footer">
+      <span>룰루 랄라</span>
+    </footer>
 
-      <footer></footer>
-    </div>
+    <script src="javascript/login.js"></script>
   </body>
 </html>
