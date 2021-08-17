@@ -7,7 +7,6 @@
 }
 .neonsign {
   margin-top: var(--side-margin);
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
