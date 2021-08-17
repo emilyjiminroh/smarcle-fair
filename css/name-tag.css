@@ -7,12 +7,17 @@ body {
 }
 
 @keyframes splash-screen {
-  for {
+  0% {
+    opacity: 0;
+  }
+  50% {
     opacity: 1;
   }
-  to {
+  100% {
     opacity: 0;
     visibility: hidden;
+    display: none;
+    z-index: -1;
   }
 }
 .name-tag {
@@ -20,7 +25,7 @@ body {
   height: 792px;
   padding-bottom: 10px;
   border: 2px solid black;
-  animation: splash-screen 3s ease-in-out;
+  animation: splash-screen 3s ease-in-out forwards;
   animation-delay: 0.3s;
 }
 
