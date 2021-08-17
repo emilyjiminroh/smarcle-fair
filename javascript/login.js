@@ -11,8 +11,14 @@ const CLASS_HIDDEN = "hidden";
 const NAME_KEY = "name";
 const POSITION_KEY = "position";
 
+const enterBtn = document.querySelector(".enter");
+const modiBtn = document.querySelector(".modify");
+
 // 이름 포지션 받으면 1 증가 -> 2 되면 버튼 생성
-let num = 0; 
+let num = 0;
+
+// 이름 신분 Array
+let nameAndPosition = [];
 
 function nameSubmit(event) {
   event.preventDefault();
@@ -22,6 +28,7 @@ function nameSubmit(event) {
   num += 1;
   if (num == 2){
     enterBtn.classList.remove(CLASS_HIDDEN);
+    modiBtn.classList.remove(CLASS_HIDDEN);
   }
   paintName();
 }
@@ -34,6 +41,7 @@ function positionSubmit(event) {
   num += 1;
   if (num == 2){
     enterBtn.classList.remove(CLASS_HIDDEN);
+    modiBtn.classList.remove(CLASS_HIDDEN);
   }
   paintPosition();
 }
@@ -53,7 +61,6 @@ function paintPosition() {
 const savedName = localStorage.getItem(NAME_KEY);
 const savedPosition = localStorage.getItem(POSITION_KEY);
 
-const enterBtn = document.querySelector(".enter");
 
 if (savedName === null || savedPosition === null) {
   loginNameInput.classList.remove(CLASS_HIDDEN);
@@ -64,13 +71,13 @@ if (savedName === null || savedPosition === null) {
   paintName();
   paintPosition();
   enterBtn.classList.remove(CLASS_HIDDEN);
+  modiBtn.classList.remove(CLASS_HIDDEN);
 }
 
-// if (savedPosition === null) {
-  
-// } else {
-//   paintName();
-//   paintPosition();
-// }
+// 수정 버튼
 
-// 로컬스토리지에 값들 받으면 버튼 뜨게 하는 기능
+function delLocal(){
+  localStorage.removeItem(NAME_KEY);
+  localStorage.removeItem(POSITION_KEY);
+}
+modiBtn.addEventListener("click", delLocal);
