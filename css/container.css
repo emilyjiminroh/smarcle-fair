@@ -1,0 +1,33 @@
+/********** main ***********/
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;`
+  height: 40px;
+  background-color: var(--blue-color);
+}
+
+.neonsign-container {
+  display: flex;`
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid purple;
+}
+
+.booth-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.booth {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: cadetblue;
+}
