@@ -15,23 +15,27 @@
     </header>
 
     <main class="login-main">
-      <header>
+      <header class="login-title">
         <h1>2021 SMARCLE Makers-day 박람회에 오신 것을 환영합니다!</h1>
       </header>
       <section class="ask">
         <span>당신의 이름은 무엇인가요?</span>
         <form class="form-name">
-          <input type="text" class="input-name">
+          <input required type="text" class="input-name hidden">
         </form>
         <span class="hidden name"></span>
       </section>
       <section class="ask">
         <span>당신의 신분은 무엇인가요?</span>
         <form class="form-position">
-          <input type="text" class="input-position">
+          <input required type="text" class="input-position hidden">
         </form>
         <span class="hidden position"></span>
       </section>
+
+      <button class="hidden enter">
+        <a href="#">이름표를 받고 입장하세요!</a>
+      </button>
     </main>
 
     <footer class="login-footer">
