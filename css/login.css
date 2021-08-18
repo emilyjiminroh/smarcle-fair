@@ -18,7 +18,8 @@
 }
 
 .login-main {
-  padding-top: 60px;
+  /* 메뉴바 겹침에 대비 -> padding-top*/
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
