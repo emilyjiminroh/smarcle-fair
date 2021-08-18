@@ -1,5 +1,5 @@
-@import url(./container.css);
-@import url(./elec-board.css);
-@import url(./root.css);
-@import url(./name-tag.css);
-@import url(./modal-detail.css);
+@import "./container.css";
+@import "./elec-board.css";
+@import "./root.css";
+@import "./name-tag.css";
+@import "./modal-detail.css";
