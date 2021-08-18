@@ -1,0 +1,98 @@
+[33mcommit 38435243264576103bda93acc22ecc64a4560cec[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/name-tag[m[33m, [m[1;31morigin/feature/name-tag[m[33m)[m
+Author: emilyjiminroh <emilyjiminroh@gmail.com>
+Date:   Tue Aug 17 10:50:35 2021 +0900
+
+    solved name-tag animation bug
+
+[33mcommit d6a7119ccba286ea6d3ddf2106e9dda5c4d3878a[m
+Author: emilyjiminroh <emilyjiminroh@gmail.com>
+Date:   Mon Aug 16 22:02:38 2021 +0900
+
+    create name-tag
+
+[33mcommit 2320f78d4aef7495ff48f77528720b6caddec256[m[33m ([m[1;31mreal/main[m[33m, [m[1;31mreal/develop[m[33m, [m[1;31morigin/main-page[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 20:29:05 2021 +0900
+
+    move
+
+[33mcommit 4032534eb65c1d55859314e3de4bc658ea435011[m
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 20:27:58 2021 +0900
+
+    move
+
+[33mcommit 5ff26bebbec2f24a1961b68054e2d28ed26757fb[m
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 18:49:03 2021 +0900
+
+    set page template
+
+[33mcommit 8c731fddd4c0c282a97a456048849058f83f2346[m
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 18:27:45 2021 +0900
+
+    delete all
+
+[33mcommit d5a84bbaf23080c87e9a23b5b88bf39c7a8fdbdf[m
+Merge: 4780c8b d51ffae
+Author: 노지민 <71576768+emilyjiminroh@users.noreply.github.com>
+Date:   Mon Aug 16 13:38:44 2021 +0900
+
+    Merge pull request #3 from emilyjiminroh/dev_roto
+    
+    practice_pull request
+
+[33mcommit d51ffaefbdd243810e46046c3f0423812a764631[m
+Author: emilyjiminroh <emilyjiminroh@gmail.com>
+Date:   Mon Aug 16 13:30:19 2021 +0900
+
+    practice'
+
+[33mcommit 4780c8b4635b9c5a05347fd22d03a1bb6262b41c[m
+Merge: 412d8ae b668cf1
+Author: 노지민 <71576768+emilyjiminroh@users.noreply.github.com>
+Date:   Mon Aug 16 12:27:28 2021 +0900
+
+    Merge pull request #2 from emilyjiminroh/dev_roto
+    
+    dev_roto practice
+
+[33mcommit b668cf1665e82ccd1fae3360ab1c1ba26002031e[m
+Author: emilyjiminroh <emilyjiminroh@gmail.com>
+Date:   Mon Aug 16 12:25:32 2021 +0900
+
+    practice_semantic
+
+[33mcommit 1e50796d5fb027fe73bd7061312d69a6279ac166[m
+Author: emilyjiminroh <emilyjiminroh@gmail.com>
+Date:   Mon Aug 16 12:18:13 2021 +0900
+
+    roto_test
+
+[33mcommit 412d8ae708657939b4e2a61e89025847360559d6[m
+Merge: 4787698 eec7319
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 02:55:06 2021 +0900
+
+    Merge pull request #1 from Jiyajiwon/develop
+    
+    Introduction about 'how to make PR'
+
+[33mcommit eec7319a096044df1325a1352d410faefd5bae6d[m
+Author: 유지원 <aprilwldnjs@gmail.com>
+Date:   Mon Aug 16 02:46:59 2021 +0900
+
+    Introduction about 'how to make PR'
+
+[33mcommit 4787698f1ebaa0a9fe41debe25f18370c39659ef[m
+Author: Yonghyun <yh47529722@gmail.com>
+Date:   Mon Aug 16 00:50:06 2021 +0900
+
+    make index.html
+
+[33mcommit 6a2b4b2cf5bf9a5cd2ef9187ed69bf4b277ecf93[m
+Author: Yonghyun <yh47529722@gmail.com>
+Date:   Mon Aug 16 00:47:57 2021 +0900
+
+    first commit
