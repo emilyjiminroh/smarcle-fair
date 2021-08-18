@@ -17,29 +17,15 @@
   flex: 1 1 10%;
 }
 
-.menu-bar {
-  width: 100%;
-  height: 60px;
-  background-color: steelblue;
-}
-
 .login-main {
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.login-main header {
-  margin-bottom: 100px;
-}
-
-.login-main section {
-  margin-bottom: 70px;
-}
-
-.login-footer {
-  margin-bottom: 25px;
+.login-title h1 {
+  margin: 0;
 }
 
 .ask {
