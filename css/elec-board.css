@@ -6,13 +6,12 @@
   font-style: normal;
 }
 .neonsign {
-  margin-top: var(--side-margin);
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 90%;
-  height: 80px;
+  height: 90%;
 
   font-family: "LAB디지털";
   letter-spacing: 30px;
