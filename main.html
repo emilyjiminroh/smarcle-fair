@@ -9,7 +9,7 @@
   </head>
 
   <body class="wrapper">
-    <main class="name-tag">
+    <div class="name-tag">
       <article class="name-tag__title">
         <img src="img/smarcle_logo.png" />
         <section class="name-tag__inf">
@@ -22,10 +22,27 @@
         <span class="name-tag__body__name"> *** </span>
         <span class="name-tag__body__visit">VISITOR</span>
       </article>
-    </main>
+    </div>
 
     <header class="main">
-      <nav class="nav-main"><i class="fas fa-bars"></i></nav>
+      <nav class="menu-bar">
+        <div class="title">
+          <span>SMARCLE-FAIR</span>
+        </div>
+        <div class="menus">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+        <div class="others">
+          <a href="#">
+            <i class="fas fa-book-open"></i>
+          </a>
+        </div>
+        <a href="#" class="navbar__toggleBtn">
+          <i class="fas fa-bars"></i>
+        </a>
+      </nav>
     </header>
 
     <main class="main">
@@ -34,7 +51,9 @@
           2021 SMARCLE PYTHON-WEEK
         </marquee>
       </section>
-<div class="booth">
+
+      <section class="booth-container">
+        <div class="booth">
           <p>1 team</p>
           <button class="button_detail">details</button>
           <div class="modal hidden">
@@ -61,8 +80,6 @@
           <p>5 team</p>
           <button class="button_detail">details</button>
         </div>
-      <section class="booth-container">
-        
       </section>
     </main>
 
@@ -72,6 +89,6 @@
       src="https://kit.fontawesome.com/d5fbb687f5.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/modal-detail.js"></script>
+    <script src="./javascript/modal-detail.js"></script>
   </body>
 </html>
