@@ -13,22 +13,24 @@
   </head>
 
   <body class="wrapper">
-    <div class="name-box">
-      <div class="name-tag">
-        <article class="name-tag__title">
-          <img src="img/smarcle_logo.png" />
-          <section class="name-tag__inf">
-            <span>2021</span>
-            <span>Smarcle Python-Week</span>
-          </section>
-        </article>
-        <article class="name-tag__body">
-          <span class="name-tag__body__uni">Sejong Univ. Smarcle</span>
-          <span class="name-tag__body__name"> *** </span>
-          <span class="name-tag__body__visit">VISITOR</span>
-        </article>
-      </div>
+
+    
+    <div class="name-tag">
+      <article class="name-tag__title">
+        <img src="img/smarcle_logo.png" />
+        <section class="name-tag__inf">
+          <span>2021</span>
+          <span>Smarcle Python-Week</span>
+        </section>
+      </article>
+      <article class="name-tag__body">
+        <span class="name-tag__body__uni">Sejong Univ. Smarcle</span>
+        <span class="name-tag__body__name"> *** </span>
+        <span class="name-tag__body__visit">VISITOR</span>
+      </article>
+
     </div>
+
 
     <header class="main">
       <nav class="menu-bar">
@@ -72,10 +74,54 @@
           <button class="button_detail">details</button>
           <div class="modal hidden">
             <div class="modal__overlay"></div>
+            <!-------- 모달 창 시작 ----------------------->
             <div class="modal__content">
-              <h1>세부 내용</h1>
-              <button>창 닫기</button>
+              <header class="nav-detail">
+                <h1 class="team-name">1 team</h1>
+                <button class="btn-detail-close">
+                  <i class="fas fa-times fa-2x"></i>
+                </button>
+              </header>
+              <!---------- 흰 배경 시작 --------------------->
+              <div class="modal-wrapper">
+                <main class="detail-container">
+                  <section class="producer-intro" style="text-align:left">
+                    <h1 class="text_xl">✋ 제작자</h1>
+                    <p class="text_m">
+                  세종대학교 20학번 강인영<br>
+                  세종대학교 21학번 노지민</p>
+                  </section>
+                  <section class="project-contents">
+                    <h1 class="text_xl" style="text-align:left">🚀 활동 설명</h1>
+                    <div class="project-PT">
+                      <iframe class="pdf"
+                        src="./pt-pdf/1팀_발표자료.pdf"
+                        width="100%"
+                        height="500px"
+                      ></iframe>
+                    </div>
+                    <div class="project-detail" style="text-align:left">
+                      <h1 class="text_l">👉 Python Crawling</h1>
+                      <p class="text_m">
+                      팀원의 공통 관심사인 주식을 키워드로 하여 python 스터디를 진행한 뒤 주식 데이터를 크롤링하였습니다. <br>
+                      유튜버 조코딩의 '주식투자 1, 2 강과 이미지 크롤링' 영상을 통해 크롤링을 학습하고 코드를 한 줄씩 리뷰하였습니다. <br>
+                      이후 BS4 라이브러리와 requests 모듈 및 크레온 API를 활용하여 주식 호가 크롤링을 수행하였습니다. <br>
+                      또한 Slack API를 기반으로, 스크랩한 주식 데이터를 Slack App으로 알림을 보내주는 서비스를 구현하였습니다. <br>
+                      크롤링의 두 번째 결과물로서 '증권 뉴스 모아따 사이트'를 만들었습니다. bs4를 이용하여 기사들을 스크랩한 뒤, flask로 웹페이지를 만들고 크롤링한 정보를 template으로 전송하여 HTML과 CSS로 구현하였습니다.</div>
+                    </p>
+                    </section>
+                  <section class="thoughts" style="text-align:left">
+                    <h1 class="text_xl">💭 활동 소감</h1>
+                    <p class="text_m"><b>노지민</b><br>어느순간 가물가물해진 Python을 다시 복습하고, 새롭게 배울 수 있는 기회여서 너무 좋았습니다. 무엇보다 팀으로 활동했던 week 였기 때문에 모르는 것이 너무 많아 지칠때, 다시 처음부터 차근차근해 해결해 나갈 수 있는 원동력이 되어서 너무 행복했던 프로젝트였습니다!!
+                    <br><b>강인영</b><br>Python을 작년 한 학기 동안 배웠지만, 이번 1주일이라는 짧은 시간 동안 훨씬 많은 것을 배운 것 같습니다. 스스로 유용한 라이브러리들을 찾아보고 코드를 한 줄씩 리뷰하면서 모르는 것도 많았고 에러도 빈번..했지만, 알아가는 과정이 정말 즐겁고 유익했던 시간이었습니다!! 다음 python week도 함께할 수 있었으면 좋겠네요ㅎㅎ</p>
+                  </section>
+                  <section class="comments">
+
+                  </section>
+                </main>
+              </div>
             </div>
+            <!-------- 모달 창 끝 --------------------------->
           </div>
           <div class="hover-modal hidden">
             <div class="hover-modal__content">
