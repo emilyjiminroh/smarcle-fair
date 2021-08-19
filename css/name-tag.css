@@ -50,6 +50,7 @@
   position: absolute;
   width: 680px;
   height: 792px;
+  margin: 0 auto;
   padding-bottom: 10px;
   border: 2px solid black;
   animation: splash-screen 3s ease-in-out forwards;

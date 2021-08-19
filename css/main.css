@@ -1,3 +1,4 @@
+/************** neonsign ******************/
 @font-face {
   font-family: "LAB디지털";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff")
@@ -5,6 +6,18 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.neonsign-container {
+  margin: var(--side-margin);
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid purple;
+}
+
 .neonsign {
   display: flex;
   align-items: center;
@@ -64,4 +77,38 @@
     color: inherit;
     text-shadow: inherit;
   }
+}
+
+/********** booth ***********/
+
+.booth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1400px;
+  min-width: 1200px;
+  height: 100%;
+  border: 2px solid black;
+}
+
+div {
+  border: 2px solid blue;
+}
+
+.booth {
+  min-width: 300px;
+  min-height: 300px;
+  margin: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }

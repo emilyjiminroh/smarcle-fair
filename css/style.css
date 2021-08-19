@@ -1,9 +1,0 @@
-@import "./login.css";
-@import "./menu.css";
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
