@@ -1,9 +1,20 @@
 @import "./main.css";
 @import "./root.css";
-@import "./name-tag.css";
+/* @import "./name-tag.css";*/
 @import "./modal-detail.css";
 @import "./login.css";
 @import "./menu.css";
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+}
 
 html,
 body {
@@ -11,5 +22,4 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  border: 2px solid var(--red-color);
 }
