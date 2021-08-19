@@ -1,11 +1,3 @@
-.name-tag {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 @keyframes splash-screen {
   0% {
     opacity: 0;
@@ -41,16 +33,21 @@
     z-index: 1;
   }
 }
-
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main {
   animation: hide-main 3.5s;
 }
 
 .name-tag {
   position: absolute;
+  align-items: center;
+  justify-content: center;
   width: 680px;
   height: 792px;
-  margin: 0 auto;
   padding-bottom: 10px;
   border: 2px solid black;
   animation: splash-screen 3s ease-in-out forwards;
