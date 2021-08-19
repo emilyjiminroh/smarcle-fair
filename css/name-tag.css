@@ -1,11 +1,3 @@
-.name-tag {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 @keyframes splash-screen {
   0% {
     opacity: 0;
@@ -45,7 +37,14 @@
 .main {
   animation: hide-main 3.5s;
 }
-
+.name-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .name-tag {
   position: absolute;
   width: 680px;
