@@ -11,6 +11,11 @@ main {
 .content {
   margin-top: 100px;
 }
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 section {
   display: flex;
   flex-direction: column;
@@ -31,7 +36,6 @@ p {
 .li_day {
   font-size: 28px;
 }
-.week_link {
-  font-size: 30px;
-  padding-bottom: 100px;
+.fa-github {
+  color: black;
 }
