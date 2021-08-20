@@ -6,11 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to fair!</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
 
   <body>
-    <center>
-      <a href="./login.html">로그인<br /></a>
-    </center>
+    <div class="bg">
+      <video
+        muted=""
+        autoplay=""
+        loop=""
+        playsinline=""
+        style="
+          border: 0;
+          height: 100vh;
+          position: relative;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%, 0);
+        "
+      >
+        <source src="vid/walking.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <main class="text">
+      <div class="text_welcome">
+        <h1 class="text_welcome_fir">Welcome to</h1>
+        <h1 class="text_welcome_sec">Smarcle Python Week Fair</h1>
+      </div>
+      <div class="text-link-box">
+        <a class="text_link" href="./login.html">Click to Enter</a>
+      </div>
+    </main>
   </body>
 </html>
