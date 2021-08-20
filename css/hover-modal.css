@@ -2,9 +2,10 @@
   background-color: tomato;
 }
 
-.hover-modal {
+.booth .hover-modal {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+  margin-left: -50px;
   background-color: lightblue;
 }

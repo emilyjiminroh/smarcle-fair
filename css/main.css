@@ -87,18 +87,19 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 1400px;
-  min-width: 1200px;
+  max-width: 1600px;
+  min-width: 1500px;
   height: 100%;
 }
 
 .booth {
   min-width: 300px;
   min-height: 300px;
-  margin: 30px;
+  margin: 30px 80px;
   border-radius: 50%;
   text-align: center;
   background-color: cadetblue;
+  overflow: visible;
 }
 
 .main {
