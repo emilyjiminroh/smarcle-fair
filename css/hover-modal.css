@@ -5,7 +5,7 @@
 .booth .hover-modal {
   position: absolute;
   width: 500px;
-  height: 400px;
+  height: 450px;
   margin-left: -100px;
   background-color: lightblue;
   border-radius: 20px;
@@ -21,7 +21,7 @@
 
 .hover-modal__content__title {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   padding: 20px;
 }
 
@@ -36,5 +36,6 @@
 }
 
 .hover-modal__content__explain p {
-  padding: 20px 0px;
+  padding-top: 30px;
+  font-size: 17px;
 }
