@@ -5,9 +5,9 @@
 .booth .hover-modal {
   position: absolute;
   width: 500px;
-  height: 450px;
+  height: auto;
   margin-left: -100px;
-  background-color: lightblue;
+  background-color: rgba(36, 36, 36, 1);
   border-radius: 20px;
   border: 2px solid rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -17,12 +17,13 @@
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
+  color: white;
 }
 
 .hover-modal__content__title {
   font-weight: bold;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .hover-modal__imgs {
@@ -33,9 +34,9 @@
 .hover-modal__img {
   width: 150px;
   height: 150px;
+  margin: 5px;
 }
 
 .hover-modal__content__explain p {
-  padding-top: 30px;
   font-size: 17px;
 }
