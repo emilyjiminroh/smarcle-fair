@@ -34,7 +34,8 @@
   }
 }
 
-.main {
+.main,
+.bg-img-box {
   animation: hide-main 3.5s;
 }
 .name-box {
