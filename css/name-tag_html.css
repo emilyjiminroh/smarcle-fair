@@ -4,7 +4,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 10px;
 }
 .name-tag {
   position: absolute;
@@ -13,6 +13,7 @@
   margin: 0 auto;
   padding-bottom: 10px;
   border: 2px solid black;
+  margin-top: 0px;
 }
 
 .name-tag__title img {
@@ -73,7 +74,9 @@
 
 .icon_x {
   font-size: 45px;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 100px;
 }
 a {
   text-decoration-line: none;
