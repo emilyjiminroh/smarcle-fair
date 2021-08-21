@@ -12,9 +12,17 @@ body {
   opacity: 0.6;
 }
 video {
-  height: 100%;
   z-index: -1;
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .text {
