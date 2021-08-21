@@ -1,7 +1,9 @@
 .button_detail:hover {
   background-color: tomato;
 }
-
+.hover-modal {
+  z-index: 1;
+}
 .booth .hover-modal {
   position: absolute;
   width: 500px;
