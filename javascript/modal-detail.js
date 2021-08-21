@@ -1,13 +1,21 @@
-const openButton = document.querySelector(".button_detail");
-const modal = document.querySelector(".modal");
-const overlay = modal.querySelector(".modal__overlay");
-const closeBtn = modal.querySelector("button");
-const openModal = () => {
-  modal.classList.remove("hidden");
-};
-const closeModal = () => {
-  modal.classList.add("hidden");
+const openButton = document.querySelectorAll(".button_detail");
+const modal = document.querySelectorAll(".modal");
+const overlay = document.querySelectorAll(".modal__overlay");
+const closeBtn = document.querySelectorAll(".btn-detail-close");
+
+for (let i = 0; i < 5; i++) {
+  openButton[i].addEventListener("click", () => {
+    modal[i].classList.remove("hidden");
+  })
 }
-overlay.addEventListener("click", closeModal)
-closeBtn.addEventListener("click", closeModal)
-openButton.addEventListener("click", openModal); 
+
+for (let i = 0; i < 5; i++) {
+  closeBtn[i].addEventListener("click", () => {
+    modal[i].classList.add("hidden");
+  })
+}
+for (let i = 0; i < 5; i++) {
+  overlay[i].addEventListener("click", () => {
+    modal[i].classList.add("hidden");
+  })
+}
