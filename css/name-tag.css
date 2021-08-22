@@ -34,10 +34,10 @@
   }
 }
 
-.main,
-.bg-img-box {
+.main-ani {
   animation: hide-main 3.5s;
 }
+
 .name-box {
   position: absolute;
   width: 100%;
