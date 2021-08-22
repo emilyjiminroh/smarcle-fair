@@ -12,7 +12,9 @@ function loadMain(){
   nameAni.classList.remove('name-ani');
   nameAni.classList.add('hidden');
   mainAni.classList.remove('main-ani');
-  mainAni.classList.add('new-main-ani');
+  // mainAni.classList.add('new-main-ani');
+  // bgAni.classList.ass('new-main-ani');
+  bgAni.classList.remove('main-ani');
 }
 
-mainAni.addEventListener("load",loadMain);
+mainAni.addEventListener("change",loadMain);
