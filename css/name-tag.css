@@ -34,9 +34,8 @@
   }
 }
 
-.main,
-.bg-img-box {
-  animation: hide-main 3.5s;
+.main-ani {
+  animation: hide-main 3s;
 }
 .name-box {
   position: absolute;
@@ -54,6 +53,11 @@
   margin: 0 auto;
   padding-bottom: 10px;
   border: 2px solid black;
+}
+.hidden {
+  display: none;
+}
+.name-ani {
   animation: splash-screen 3s ease-in-out forwards;
 }
 
