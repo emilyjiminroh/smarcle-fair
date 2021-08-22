@@ -54,6 +54,9 @@
   padding-bottom: 10px;
   border: 2px solid black;
 }
+.new-main-ani {
+  animation: hide-main 1s;
+}
 .hidden {
   display: none;
 }

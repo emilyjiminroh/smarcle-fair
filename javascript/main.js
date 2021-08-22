@@ -7,3 +7,12 @@ const bgAni = document.querySelector(".bg-img-box");
 
 nameText.innerText = localStorage.getItem("name");
 visitorText.innerText = localStorage.getItem("position");
+
+function loadMain(){
+  nameAni.classList.remove('name-ani');
+  nameAni.classList.add('hidden');
+  mainAni.classList.remove('main-ani');
+  mainAni.classList.add('new-main-ani');
+}
+
+mainAni.addEventListener("load",loadMain);
