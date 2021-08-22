@@ -78,11 +78,12 @@
 
 .login-footer a {
   margin: 20px 0px;
-  padding: 5px;
+  padding: 20px;
   text-decoration: none;
   color: whitesmoke;
   background-color: steelblue;
-  border-radius: 10px;
+  border-radius: 20px;
+  font-size: 15px;
 }
 
 /* 비율 배정 */
